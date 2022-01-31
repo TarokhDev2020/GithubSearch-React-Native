@@ -1,0 +1,6 @@
+export const GET_LATEST = "GET_LATEST";
+export const SEARCH_REPOSITORIES = "SEARCH_REPOSITORIES";
+export const ADD_TO_FAVORITES = "ADD_TO_FAVORITE";
+export const GET_FAVORITES = "GET_FAVORITES";
+export const SET_LOADING = "SET_LOADING";
+export const GITHUB_ERROR = "GITHUB_ERROR";
