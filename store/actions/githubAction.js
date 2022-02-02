@@ -10,7 +10,7 @@ export const setLoading = () => {
 export const getLatest = () => async dispatch => {
     try {
         setLoading();
-        const response = await axios.get("https://api.github.com/search/repositories?q=language:swift&order=desc&sort=stars&client_id=2679413bb77312209bc5ad960094e8492cd03073");
+        const response = await axios.get("https://api.github.com/search/repositories?q=language:swift&order=desc&sort=stars&client_id=[YOUR_CLIENT_ID_HERE]");
         const data = response.data;
         const items = data.items;
         dispatch({
@@ -29,7 +29,7 @@ export const getLatest = () => async dispatch => {
 export const searchRepositories = (query) => async dispatch => {
     try {
         setLoading();
-        const response = await axios.get(`https://api.github.com/search/repositories?q=${query}&order=desc&sort=stars&client_id=2679413bb77312209bc5ad960094e8492cd03073`);
+        const response = await axios.get(`https://api.github.com/search/repositories?q=${query}&order=desc&sort=stars&client_id=[YOUR_CLIENT_ID_HERE]`);
         const data = await response.data;
         const items = data.items;
         dispatch({
