@@ -1,6 +1,11 @@
 
 # GithubSearch-React-Native
 
+## Features
+* Show the best trending github repositories
+* Search functionality
+* Add your favorite github repository to your favorite (read it later)
+
 Search and get the most trending github repositories
 
 ## Screenshots
