@@ -1,12 +1,12 @@
 
 # GithubSearch-React-Native
 
+Search and get the most trending github repositories
+
 ## Features
 * Show the best trending github repositories
 * Search functionality
 * Add your favorite github repository to your favorite (read it later)
-
-Search and get the most trending github repositories
 
 ## Screenshots
 <a href='Simulator Screen Shot - iPhone 11 - 2021-01-12 at 21 48 16' target='_blank'><img src='https://user-images.githubusercontent.com/72879576/153031027-7eb32fa5-a4bc-49c8-8d68-682fd263cffa.png' border='0' alt='GithubSearch-React-Native' width="250"/></a>
